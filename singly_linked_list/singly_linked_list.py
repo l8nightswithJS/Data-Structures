@@ -73,7 +73,6 @@ class LinkedList:
         
 
     def contains(self, value):
-        # TODO time permitting
         cur_node = self.head
         while cur_node is not None:
             if cur_node.get_value() == value:
@@ -81,5 +80,4 @@ class LinkedList:
         return False
 
     def get_max(self):
-        # TODO time permitting
         pass
